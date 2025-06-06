@@ -31,9 +31,105 @@ header {
 
 .welcome {
     display: flex;
-    justify-content: space-between;
+    gap: 4em;
 }
 
 .coach {
     display: flex;
+    gap: 2em;
+}
+
+.coach img {
+    border-radius: 50%;
+    object-fit: cover;
+    width: 70px;
+    height: 70px;
+}
+.imagen, .description {
+    flex: 1;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+}
+
+.description h1 {
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.classes {
+    margin-top: 4em;
+    padding: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(147, 141, 141);
+}
+
+.classes h1 {
+    color: white;
+    font-weight: bold;
+}
+
+.products {
+    padding-top: 2em;
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+}
+
+.div-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1em;
+    padding: 1em;
+}
+
+.img-title{
+    flex:1;
+}
+
+.card-title {
+    flex:2;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 4em;
+    background-color: #1c2024;
+    color: white;
+}
+
+.links-lista {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 2em;
+  }
+  
+footer li {
+    list-style: none;
+}
+
+.footer-img{
+    flex: 1;
+}
+
+.links {
+    flex: 1;
+}
+footer h4{
+    text-decoration: underline;
+    text-decoration-color: orangered;
+}
+.contactus {
+    flex: 2;
 }
